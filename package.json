@@ -1,0 +1,19 @@
+{
+  "prettier": "prettier-config-infojr",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "eslint": "^8.16.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "prettier-config-infojr": "^1.0.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
